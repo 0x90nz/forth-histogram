@@ -37,7 +37,7 @@ hist hist-size cells erase
 ;
 
 : print-summary
-	26 0 do i
+	26 0 do
 		i [char] a +
 		dup emit ." : "
 		histcell ? cr
