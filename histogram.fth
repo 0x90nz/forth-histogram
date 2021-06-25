@@ -25,6 +25,8 @@ hist hist-size cells erase
 	dup alpha? if
 		downcase
 		histcell 1 swap +! 
+	else
+		drop
 	then
 ;
 
